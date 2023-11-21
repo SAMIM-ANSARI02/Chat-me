@@ -1,0 +1,20 @@
+{
+  "name": "my_chat_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js"
+  },
+  "author": "samim ansari",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1"
+  }
+}
